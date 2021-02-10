@@ -1,0 +1,21 @@
+---
+title: "BIOL 432 Assignment 5"
+author: "Tanner Ashurst"
+date: "10/02/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+##  **Part 1**
+
+The first step in this assignment will be to install the rentrez package in R.
+
+```{r, include = F}
+install.packages('rentrez', repos = "http://cran.us.r-project.org")
+library(rentrez)
+```
+
+
