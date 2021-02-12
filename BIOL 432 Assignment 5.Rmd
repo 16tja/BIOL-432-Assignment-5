@@ -11,11 +11,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ##  **Part 1**
 
-The first step in this assignment will be to install the rentrez package in R.
+The first step in this assignment will be to load the necessary packages.
 
-```{r, include = F}
-install.packages('rentrez', repos = "http://cran.us.r-project.org")
+```{r}
 library(rentrez)
+library(dplyr)
+library(stringr)
 ```
+Next, we will create a new Github repository called "Rentrez" and link this assignment's R project folder to it. This done outside of the R markdown file.
 
-
+Now we will add a new script called "Download.R" where we will continue working through part 1 of this assignment.
